@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import './App.css';
 import axios from 'axios';
-import Products from "./components/products/Products"
 
 function App() {
   const [shopProducts, setShopProducts] = useState([]);
@@ -34,7 +33,6 @@ function App() {
       ))}
      
     </div>
-    <Products/>
     </>
   );
 }
